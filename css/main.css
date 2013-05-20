@@ -102,6 +102,10 @@ h1 {
     #reason a:hover, p.bouncy a:hover, .thatsall a:hover {
       color: white; }
 
+.coffeetime {
+  color: white;
+  font-weight: bold; }
+
 footer {
   padding-top: 1em;
   width: 50%;
