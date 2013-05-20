@@ -88,7 +88,7 @@ p.bouncy{
     @extend #reason;
 	max-width: 200px;
 	margin: auto;
-    color: $coffee;
+    opacity: 0.4;
 }
 
 body {
@@ -110,6 +110,12 @@ h1 {
     text-shadow: -0.1em 0em 1em rgba(darken($coffee,20%),0.2);
     font-weight: bold;
     font-size: 1.3em;
+    a {
+        color: $cream;
+        &:hover {
+            color: $milk;
+            }
+    }
 }
 
 

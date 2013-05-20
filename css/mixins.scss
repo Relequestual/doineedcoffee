@@ -10,3 +10,9 @@
   background-image:         linear-gradient(top, $fromColor, $toColor);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='$fromColor', EndColorStr='$toColor');
 }
+
+@mixin transition ($speed: 0.1s) {
+	-webkit-transition:all $speed ease-in-out;
+	-moz-transition:all $speed ease-in-out;
+	transition:all $speed ease-in-out;
+}

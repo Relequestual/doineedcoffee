@@ -62,7 +62,7 @@ html body {
 p.bouncy {
   max-width: 200px;
   margin: auto;
-  color: #554433; }
+  opacity: 0.4; }
 
 body {
   background-color: #554433; }
@@ -94,6 +94,10 @@ h1 {
   text-shadow: -0.1em 0em 1em rgba(21, 17, 13, 0.2);
   font-weight: bold;
   font-size: 1.3em; }
+  #reason a, p.bouncy a, .thatsall a {
+    color: #ddddcc; }
+    #reason a:hover, p.bouncy a:hover, .thatsall a:hover {
+      color: white; }
 
 /* ==========================================================================
    Media Queries
