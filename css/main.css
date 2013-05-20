@@ -95,7 +95,10 @@ h1 {
   font-weight: bold;
   font-size: 1.3em; }
   #reason a, p.bouncy a, .thatsall a {
-    color: #ddddcc; }
+    color: #ddddcc;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; }
     #reason a:hover, p.bouncy a:hover, .thatsall a:hover {
       color: white; }
 

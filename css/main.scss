@@ -112,6 +112,7 @@ h1 {
     font-size: 1.3em;
     a {
         color: $cream;
+        @include transition;
         &:hover {
             color: $milk;
             }
