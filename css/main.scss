@@ -85,8 +85,10 @@ html body{
 }
 
 p.bouncy{
+    @extend #reason;
 	max-width: 200px;
 	margin: auto;
+    color: $coffee;
 }
 
 body {
@@ -103,7 +105,12 @@ h1 {
     -webkit-text-fill-color: transparent;
     }
 
-
+#reason, .thatsall {
+    color: $latte;
+    text-shadow: -0.1em 0em 1em rgba(darken($coffee,20%),0.2);
+    font-weight: bold;
+    font-size: 1.3em;
+}
 
 
 

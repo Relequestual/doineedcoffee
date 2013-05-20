@@ -61,7 +61,8 @@ html body {
 
 p.bouncy {
   max-width: 200px;
-  margin: auto; }
+  margin: auto;
+  color: #554433; }
 
 body {
   background-color: #554433; }
@@ -87,6 +88,12 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='$fromColor', EndColorStr='$toColor');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+#reason, p.bouncy, .thatsall {
+  color: #aa8866;
+  text-shadow: -0.1em 0em 1em rgba(21, 17, 13, 0.2);
+  font-weight: bold;
+  font-size: 1.3em; }
 
 /* ==========================================================================
    Media Queries

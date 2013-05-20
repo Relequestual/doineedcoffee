@@ -48,7 +48,7 @@ jQuery(document).ready(function($){
 			$("#reason").throwable({containment:[0,0,100,100], drag:true,gravity:{x:0,y:+2},bounce:2,damping:0, containment:"parent", impulse: {f: 10, p:{x:5,y:5}}});
 			$('#reason').removeAttr('id');
 			
-			$("h1").after('That\'s all we have right now. Got more? Why not fork us on Github? =]');
+			$("h1").after('<p class="thatsall">That\'s all we have right now. Got more? Why not fork us on Github? =]</p>');
 		}else if(reasons.length >= reason_no){
 			
 			$('#reason').attr('class', 'bouncy');
