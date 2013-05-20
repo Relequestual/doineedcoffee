@@ -1,3 +1,5 @@
+@import "mixins";
+
 /* ==========================================================================
    VARI-ED-BALLS
    ========================================================================== */
@@ -29,12 +31,12 @@ body {
 }
 
 ::-moz-selection {
-    background: $highlight;
+    background: $cream;
     text-shadow: none;
 }
 
 ::selection {
-    background: $highlight;
+    background: $cream;
     text-shadow: none;
 }
 
@@ -87,8 +89,19 @@ p.bouncy{
 	margin: auto;
 }
 
+body {
+    background-color: $coffee;
+}
 
-
+h1 {
+    font-family: Swingdancer, cursive;
+    color: $latte;
+    text-shadow: 0.05em 0.05em 0 rgba($latte,0.3);
+    font-size: 4em;
+    @include linear-gradient(lighten($latte,20%), $latte);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
 
 
 
