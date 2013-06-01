@@ -99,10 +99,12 @@ h1 {
     font-family: Swingdancer, cursive;
     color: $latte;
     text-shadow: 0.05em 0.05em 0 rgba($latte,0.3);
-    font-size: 4em;
-    @include linear-gradient(lighten($latte,20%), $latte);
-    -webkit-background-clip: text;
+    font-size: 5em;
     -webkit-text-fill-color: transparent;
+    @include linear-gradient(lighten($latte,20%), $latte);
+    
+    
+    -webkit-background-clip: text;
     }
 
 #reason, .thatsall {

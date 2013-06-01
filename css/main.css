@@ -71,23 +71,20 @@ h1 {
   font-family: Swingdancer, cursive;
   color: #aa8866;
   text-shadow: 0.05em 0.05em 0 rgba(170, 136, 102, 0.3);
-  font-size: 4em;
-  background-color: #aa8866;
+  font-size: 5em;
+  -webkit-text-fill-color: transparent;
+  background-color: #554433;
   /* Fallback Color */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#cebba8), to(#aa8866));
   /* Saf4+, Chrome */
   background-image: -webkit-linear-gradient(top, #cebba8, #aa8866);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #cebba8, #aa8866);
-  /* FF3.6 */
   background-image: -ms-linear-gradient(top, #cebba8, #aa8866);
   /* IE10 */
   background-image: -o-linear-gradient(top, #cebba8, #aa8866);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #cebba8, #aa8866);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='$fromColor', EndColorStr='$toColor');
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-background-clip: text; }
 
 #reason, p.bouncy, .thatsall {
   color: #aa8866;
