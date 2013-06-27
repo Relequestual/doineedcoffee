@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 	var reasons = new Array();
 	var reason_no = 0;
-	
+
 	$.ajax({
 		type: "GET",
 		url: "/reasons.txt",
@@ -30,16 +30,16 @@ jQuery(document).ready(function($){
 			array[current] = array[top];
 			array[top] = tmp;
 		}
-		
+
 		return array;
 	}
-	
+
 	$('#more').click(function(e){
-	
+
 		reason_no++;
-		
+	
 		if(reasons.length == reason_no){			
-			
+		
 			$('#reason').attr('class', 'bouncy');
 			
 			//Working here.
@@ -63,6 +63,10 @@ jQuery(document).ready(function($){
 		}
 		
 	});
-	
-	
+
+	var bgimg = ['one.jpg', 'two.jpg', 'three.jpg'];
+
+	$('html').css({'background-image': 'url(/img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+
 });

@@ -2,7 +2,7 @@ Monday
 Day of the week containing the letter 'y'
 Started the day with a meeting
 Shippin'
-Broke the buid
+Broke the build
 Got a call from a client
 Caffine withdrawal
 Thirsty
