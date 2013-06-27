@@ -64,7 +64,8 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%; }
 
 #shares {
   margin-top: 100px; }
@@ -75,7 +76,21 @@ p.bouncy {
   opacity: 0.4; }
 
 body {
-  /* background-color: $coffee; */ }
+  width: 100%;
+  display: -webkit-box;
+  display: flexbox;
+  box-align: center;
+  flex-align: center;
+  box-pack: center;
+  flex-pack: center; }
+
+.main {
+  padding: 1em 1.5em;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0.3em 1em rgba(0, 0, 0, 0.3);
+  width: 44%;
+  border-radius: 2em;
+  margin: auto auto; }
 
 h1 {
   font-family: Swingdancer, cursive;

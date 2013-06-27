@@ -89,6 +89,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
 #shares{
@@ -103,8 +104,21 @@ p.bouncy{
 }
 
 body {
-    /* background-color: $coffee; */
+    width: 100%;
+    display: -webkit-box; display: flexbox;
+    box-align: center; flex-align: center;
+    box-pack: center; flex-pack: center;
 }
+
+.main {
+    padding: 1em 1.5em;
+    background-color: rgba($milk,.7); 
+    box-shadow: 0 0.3em 1em rgba(0,0,0,.3);
+    width:44%;
+    border-radius:2em;
+    margin: auto auto;
+
+   }
 
 h1 {
     font-family: Swingdancer, cursive;
