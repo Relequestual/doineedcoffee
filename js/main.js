@@ -66,7 +66,7 @@ jQuery(document).ready(function($){
 
 	var bgimg = ['one.jpg', 'two.jpg', 'three.jpg'];
 
-	$('html').css({'background-image': 'url(/img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+	$('html').css({'background-image': 'url(/img/' + bgimg[Math.floor(Math.random() * bgimg.length)] + ')'});
 
 
 });
