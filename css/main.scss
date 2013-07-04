@@ -113,7 +113,7 @@ body {
     padding: 0.5em;
     background-color: rgba($milk,.7); 
     box-shadow: 0 0.3em 1em rgba(0,0,0,.3);
-    width:44%;
+    width:50%;
     border-radius:2em;
     margin: auto auto;
 
@@ -125,7 +125,7 @@ h1 {
     text-shadow: 0.05em 0.05em 0 rgba($latte,0.3);
     font-size: 5em;
     -webkit-text-fill-color: transparent;
-    @include linear-gradient(lighten($latte,20%), $latte);
+    /*@include linear-gradient(lighten($latte,20%), $latte);*/
     
     
     -webkit-background-clip: text;
