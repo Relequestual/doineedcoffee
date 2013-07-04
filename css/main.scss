@@ -114,6 +114,7 @@ body {
     background-color: rgba($milk,.7); 
     box-shadow: 0 0.3em 1em rgba(0,0,0,.3);
     width:50%;
+    min-width:19em;
     border-radius:2em;
     margin: auto auto;
 
@@ -123,7 +124,7 @@ h1 {
     font-family: Swingdancer, cursive;
     color: $latte;
     text-shadow: 0.05em 0.05em 0 rgba($latte,0.3);
-    font-size: 5em;
+    font-size: 5rem;
     -webkit-text-fill-color: transparent;
     /*@include linear-gradient(lighten($latte,20%), $latte);*/
     
